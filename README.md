@@ -25,15 +25,16 @@ Install docker using the official docker website.
 
 Run the following command\
 docker run --name my-redis -p 6379:6379 -d redis\
-This will pull the official redis docker image and run it on port 6379\
+This will pull the official redis docker image and run it on port 6379
 
 cd into the main project and run\
-npm install\
+npm install
 
-now to run the main code using 4 different terminal window\
+now to run the main code using 4 different terminal window
+
 node index.js\
 node servers/server0.js\
 node servers/serve1.js\
-node servers/server2.js\
+node servers/server2.js
 
 Your project is all setup!!
