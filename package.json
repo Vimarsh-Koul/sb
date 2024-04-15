@@ -1,0 +1,25 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^7.110.0",
+    "@sentry/profiling-node": "^7.110.0",
+    "axios": "^1.6.8",
+    "consistent-hashing": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-http-proxy": "^2.0.0",
+    "hash-ring": "^1.0.1",
+    "rate-limiter-flexible": "^5.0.0",
+    "redis": "^4.6.13",
+    "winston": "^3.13.0"
+  }
+}

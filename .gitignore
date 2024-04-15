@@ -1,0 +1,4 @@
+mode_modules
+servers/combined.log
+servers/error.log
+.env
